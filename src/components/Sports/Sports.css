@@ -1,0 +1,232 @@
+.project-cart-container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.my-name-address {
+    margin-left: 10px;
+}
+
+.my-name-address h6{
+    margin-top: 10px;
+}
+
+.my-name-address p{
+    margin-top: -8px;
+    color: rgb(11, 10, 10);
+}
+
+.my-image-and-name{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.about-myself{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 206, 206);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.break-title, .exercise-title{
+    margin-left: 20px;
+}
+
+.break-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(200, 206, 206);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.break-section p{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.break-section p:hover{
+    
+    background-color: blue;
+    color: white;
+}
+
+.exercise-title{
+    margin-top: 30px;
+}
+
+.exercise-time-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 206, 206);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.exercise-time-div p{
+    color: rgb(53, 9, 176);
+    font-weight: 500;
+}
+
+.break-time-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 206, 206);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.break-time-div p{
+    color: rgb(53, 9, 176);
+    font-weight: 500;
+}
+
+.exercise-time-div h5, .break-time-div h5{
+    font-size: 18px;
+    margin-top: 10px !important;
+}
+
+.cart-button{
+    display: flex;
+    justify-content: center;
+}
+
+.activity-complete-button{
+    background-color: rgb(47, 61, 190);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.activity-complete-button-after-click{
+    background-color: rgb(15, 117, 6);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.activity-complete-button:hover{
+    background-color: rgb(115, 69, 200);
+
+}
+
+.check-icon{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.cart-color{
+    background-color: rgb(229, 228, 226);
+    margin-bottom: 50px;
+    margin-left: 30px !important;
+}
+
+.location-pin-address{
+    display: flex;
+}
+.location-icon{
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+
+@media screen and (max-width: 578px){
+    .break-section p{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .my-age h3{
+        font-size: 17px;
+    }
+    .my-university h3{
+        font-size: 16px;
+    }
+    .my-study h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .break-section p{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 970px){
+    .break-section p{
+        padding: 5px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    .exercise-time-div h5{
+        font-size:16px;
+        margin-top: 10px !important;
+    }
+    .break-time-div h5{
+        font-size:16px;
+        margin-top: 10px !important;
+    }
+    .my-age h5{
+        font-size: 15px;
+    }
+    .my-university h5{
+        font-size: 15px;
+    }
+    .my-study h5{
+        font-size: 15px;
+    }
+    .my-Name, .my-Address{
+        font-size: 10px;
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    .cart-color{
+        background-color: rgb(229, 228, 226);
+        margin-left: 100px !important;
+        margin-bottom: 50px;
+        width: 75%;
+    }
+} */
+
+
+
