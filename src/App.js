@@ -7,7 +7,6 @@ import Header1 from './components/Header1/Header1';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
       <Header1></Header1>
       <Sports></Sports>
     </div>
